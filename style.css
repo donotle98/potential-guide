@@ -71,6 +71,7 @@ h1{
     width: 40%;
     overflow: hidden;
     margin: 40px;
+    padding-top: 50px;
 }
 .aboutme{
     padding: 20px 90px 60px 90px;
@@ -84,7 +85,6 @@ h1{
     color: white;
     line-height: 25pt;
 }
-
 .codesect{
     padding: 20px 90px 60px 90px;
 }
