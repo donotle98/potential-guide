@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donovan Le</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
+</head>
+<body>
+
+
+    <header>
+        <div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://github.com/donotle98" target="_blank" class="github"><i class="devicon-github-plain"></i>My Github</a></li>
+                </ul>
+            </nav>
+            <h1 class="logo">Dtle</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="aboutme" id="about">
+            <div class="picofme">
+                <img src="donole.JPG" width="500" alt="Picture of me Donovan Le">
+            </div>
+            <article class="about-me-sect">
+                <p>My name is Donovan Le. I am a Computer Science student from Colorado.
+                    However, I did live the majority of my life in California. I currently reside in Arkansas. I started my path in
+                    CS my third year of college. It took me a while to realize that I am really interested in programming.
+                    At first I was super interested in business finance, I wanted to be a CPA. After a couple years, almost getting
+                    my AS in business, I switched over to CS. It was probably the best thing I have ever done. The more work
+                    I do in programming, the more I want to do it. I really enjoy it. I am currently starting
+                    a bootcamp. I am in the process of the prep-course and I am loving it. This prep-course is all about
+                    coding and learning to work with others. It is really amazing.</p>
+            </article>
+        </div>
+        <div class="codesect" id="code">
+            <hr>
+            <div>
+                <div class="lang-sect">
+                    <ul>
+                        <li><i class="devicon-java-plain"></i>Java</li>
+                        <li><i class="devicon-cplusplus-plain"></i>C++</li>
+                        <li><i class="devicon-python-plain"></i>Python</li>
+                        <li><i class="devicon-html5-plain"></i>HTML5</li>
+                        <li><i class="devicon-css3-plain"></i>CSS3</li>
+                        <li><i class="devicon-javascript-plain"></i>JavaScript</li>
+                    </ul>
+                </div>
+                <article>
+                    <div class="pprojects">
+                        <p>I've done many school and personal projects so far in my time of learning computer science. They range from
+                            building "To-Do" list using HTML5, CSS3, and JavaScript. To Library management systems using C++. The management
+                            system would use dynamic memory allocation, c-string functions, classes and objects. I created a spell checker
+                            that would use the exact same thing, but in a completely more simple way. All my applications are different
+                            and they vary difficulty. There is this website I designed for myself, which so happened to be the first thing
+                            I ever built. It used HTML5, CSS3, and JavaScript. It was sort of complex, and yet pretty simple compared
+                            to other professionally built websites.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="Hobbies" id="hobbies">
+            <hr>
+            <div>
+                <div class="image-slide">
+                    <img class="mySlide" src="ARM!!!!.jpg" style="width:30%">
+                    <img class="mySlide" src="ARM!!!.jpg" style="width:30%">
+                    <img class="mySlide" src="GC_HI.jpg" style="width:30%">
+                    <img class="mySlide" src="D2.jpg" style="width:30%">
+                    <img class="mySlide" src="ARM.jpg" style="width:30%">
+                    <img class="mySlide" src="PC_Part.jpg" style="width:25%">
+                </div>
+                <article class="hobby-sect">
+                    <p>There are plenty of things I like to do outside of programming. I like playing video games, I
+                    like to read non-fiction books, I like to bike, I like to golf, I like photography, but probably the thing that I
+                    find most interesting is building and learning about computers. I got into building computers about
+                    three years ago, and ever since then a lot of time goes into learning about it. I have built
+                    my own PC, I have helped my friends build their own PC's and I am quite active on PC building forums.
+                     I use to be quite into playing sports like football, basketball, track & field. But nowadays
+                    I am really only playing golf. I have never been much of an outdoors person, but given where I
+                    live I am trying to get out into nature more by hiking and biking. There is plenty of great
+                    scenery where I am. Other than that, when I am trying to relax, video games and videos about
+                    hypothetical science theories is where it is at for me.</p>
+
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <div class="contact" id="contact">
+            <h3>LinkedIn: <a href="https://www.linkedin.com/in/dtle647/" target="_blank">@dtle647</a></h3>
+            <h3>Github: <a href="https://github.com/donotle98" target="_blank">@donotle98</a></h3>
+        </div>
+        <hr>
+    </footer>
+
+
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-70px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    </script>
+</body>
+</html>
