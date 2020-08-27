@@ -9,7 +9,6 @@
 </head>
 <body>
 
-
     <header>
         <div>
             <nav id="navbar">
@@ -29,17 +28,16 @@
     <main>
         <div class="aboutme" id="about">
             <div class="picofme">
-                <img src="donole.JPG" width="500" alt="Picture of me Donovan Le">
+                <img src="images/donole.JPG" width="100%" alt="Picture of me Donovan Le">
             </div>
             <article class="about-me-sect">
-                <p>My name is</p> <h2>Donovan Le</h2> <p>I am a Computer Science student from Colorado.
-                    However, I did live the majority of my life in California. I currently reside in Arkansas. I started my path in
-                    CS my third year of college. It took me a while to realize that I am really interested in programming.
-                    At first I was super interested in business finance, I wanted to be a CPA. After a couple years, almost getting
-                    my AS in business, I switched over to CS. It was probably the best thing I have ever done. The more work
-                    I do in programming, the more I want to do it. I really enjoy it. I am currently starting
-                    a bootcamp. I am in the process of the prep-course and I am loving it. This prep-course is all about
-                    coding and learning to work with others. It is really amazing.</p>
+                <p>My name is</p> <h2>Donovan Le</h2> <p>I am from Colorado Spring, Colorado.
+                I am a Software Engineering student. I hope one day to become actually be able to call myself
+                 an actual Software Engineer. It actually took me a while to realize I was into programming. During my
+                first three years in college as a Business Finance major, I wanted to go work with stocks for major
+                companies. I was introduced to programming by my step-dad. He is quite the successful developer over
+                at Apple. To this day, he helps me with all my little to big programming questions. To be quite honest,
+                 I have a lot of them. </p>
             </article>
         </div>
         <div class="codesect" id="code">
@@ -57,28 +55,44 @@
                 </div>
                 <div>
                     <div class="pprojects">
-                        <p>I've done many school and personal projects so far in my time of learning computer science. They range from
-                            building "To-Do" list using HTML5, CSS3, and JavaScript. To Library management systems using C++. The management
-                            system would use dynamic memory allocation, c-string functions, classes and objects. I created a spell checker
-                            that would use the exact same thing, but in a completely more simple way. All my applications are different
-                            and they vary difficulty. There is this website I designed for myself, which so happened to be the first thing
-                            I ever built. It used HTML5, CSS3, and JavaScript. It was sort of complex, and yet pretty simple compared
-                            to other professionally built websites.</p>
+                        <p>For the past two years that I have been studying code, I have managed to complete multiple
+                         personal and school projects. My favorite personal project would my first ever portfolio site.
+                         I wrote it using HTML5, CSS3, and Javascript. It was a fun and great starter project. My
+                        favorite school project I have ever done was a Library management system written in C++.
+                        It required a whole bunch of methods. Objects, classes, user input, dynamic memory allocation,
+                        exception handling, switch statements, text files, modifying text files, header files,
+                        and much more. It was extremely challenging, luckily I worked in a group. Everyone split
+                        the jobs and we made it a successful project. I did a few projects in Java, and Python as well.
+                        I am currently learning React and Goland.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="Hobbies" id="hobbies">
             <hr>
-            <div>
-                <div class="image-slide">
-                    <img class="mySlide" src="ARM!!!!.jpg" style="width:30%" alt="Picture of the Arkansas Ozark Mountain">
-                    <img class="mySlide" src="ARM!!!.jpg" style="width:30%" alt="Picture of the Arkansas Ozark Mountain">
-                    <img class="mySlide" src="GC_HI.jpg" style="width:30%" alt="Picture of a golf course in Hawaii">
-                    <img class="mySlide" src="D2.jpg" style="width:30%" alt="Picture of Destiny 2">
-                    <img class="mySlide" src="ARM.jpg" style="width:30%" alt="Picture of the Arkansas Ozark Mountain">
-                    <img class="mySlide" src="PC_Part.jpg" style="width:25%" alt="Picture of a PC build">
+            <div id="slideshow-container" data-component="slideshow">
+                <div role="list">
+                    <div class="slide">
+                        <img src="images/ARM!!!!.jpg" alt="Arkansas Mountains" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="images/ARM!!!.jpg" alt="Arkansas Mountains" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="images/ARM.jpg" alt="Arkansas Mountains" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="images/D2.jpg" alt="My favorite game: Destiny 2" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="images/GC_HI.jpg" alt="Golf course in Hawaii" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="images/PC_Part.jpg" alt="Picture of my PC build" class="slide-img">
+                    </div>
                 </div>
+            </div>
+            <div>
                 <div class="hobby-sect">
                     <p>There are plenty of things I like to do outside of programming. I like playing video games, I
                     like to read non-fiction books, I like to bike, I like to golf, I like photography, but probably the thing that I
@@ -88,9 +102,8 @@
                      I use to be quite into playing sports like football, basketball, track & field. But nowadays
                     I am really only playing golf. I have never been much of an outdoors person, but given where I
                     live I am trying to get out into nature more by hiking and biking. There is plenty of great
-                    scenery where I am. Other than that, when I am trying to relax, video games and videos about
-                    hypothetical science theories is where it is at for me.</p>
-
+                    scenery where I am. Other than that, when I am trying to relax, video games and reading books about
+                    psychology is what I am doing.</p>
                 </div>
             </div>
         </div>
@@ -104,19 +117,6 @@
         </div>
         <hr>
     </footer>
-
-
-    <script>
-      var prevScrollpos = window.pageYOffset;
-      window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-          document.getElementById("navbar").style.top = "0";
-        } else {
-          document.getElementById("navbar").style.top = "-70px";
-        }
-        prevScrollpos = currentScrollPos;
-      }
-    </script>
+    <script src="app.js"></script>
 </body>
 </html>

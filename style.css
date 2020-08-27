@@ -4,7 +4,7 @@ body{
     font-family: Quicksand, sans-serif;
     background-color: rgba(46, 49, 49, 1);
 }
-nav{
+#navbar{
     position: fixed;
     top: 0;
     left: 0;
@@ -55,6 +55,8 @@ nav ul li a:hover{
 nav ul li a.is-hidden{
     transform: translateY(-100%);
 }
+
+
 h1{
     color: white;
     text-transform: uppercase;
@@ -74,7 +76,7 @@ h1{
     padding-top: 50px;
 }
 .aboutme{
-    padding: 20px 90px 60px 90px;
+    padding: 50px 90px 90px 90px;
 }
 .about-me-sect{
     white-space: inherit;
@@ -86,7 +88,7 @@ h1{
     line-height: 25pt;
 }
 .codesect{
-    padding: 20px 90px 60px 90px;
+    padding: 50px 90px 90px 90px;
 }
 .lang-sect{
     padding-top: 20px;
@@ -115,8 +117,28 @@ h1{
     line-height: 25pt;
     color: white;
 }
+#slideshow-container{
+    margin: auto;
+    align-content: center;
+    padding-top: 40px;
+}
+.slide-img{
+    width: 600px;
+    height: 400px;
+}
+[data-component="slideshow"] .slide {
+    display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+    display: block;
+}
+
+
 .Hobbies{
-    padding: 20px 90px 60px 90px;
+    align-content: center;
+    text-align: center;
+    padding: 50px 90px 90px 90px;
 }
 .hobby-sect{
     padding: 20px;
@@ -126,15 +148,8 @@ h1{
     line-height: 25pt;
     color: white;
 }
-.image-slide{
-    text-align: center;
-    padding-top: 30px;
-}
-.mySlide{
-    padding: 10px;
-}
 footer{
-    padding: 20px 90px 10px 90px;
+    padding: 50px 90px 90px 90px;
 }
 .contact{
     padding: 20px;
